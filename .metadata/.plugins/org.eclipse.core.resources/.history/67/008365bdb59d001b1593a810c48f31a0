@@ -1,0 +1,12 @@
+
+public class javaMain {
+
+	public static void main(String[] args) {
+		int nA = 0;
+		for(int i = 0; i < 16; i++) {
+			System.out.println("¦¢ Decimal ¦¢ Oct ¦¢ Haxa ¦¢\n");
+			System.out.println("¦§ Decimal ¦« Oct ¦« Haxa ¦©\n");			
+		}
+	}
+
+}

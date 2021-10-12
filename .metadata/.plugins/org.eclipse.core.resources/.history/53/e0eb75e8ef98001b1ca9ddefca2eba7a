@@ -1,0 +1,23 @@
+package sdh.hs.kr;
+
+import java.util.Scanner;
+
+public class HellowWorld2 {
+
+	public static void main(String[] args) {
+		        Scanner sc = new Scanner(System.in);
+		        System.out.print("Enter the number : ");
+                       int A = sc.nextInt();
+
+		        sc.close();
+		        
+		        String result;
+		        if(A % 2 == 0) {
+		        		String result = "even number";
+		            }         
+		        else {
+		        	String result = "odd number";
+		        }
+		        System.out.println(result);
+	}
+}

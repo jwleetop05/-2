@@ -1,0 +1,14 @@
+
+public class javaMain {
+
+	public static void main(String[] args) {
+		int nA = 10;
+		int nB = 20;
+		System.out.printf("%d + %d=%d",nA,nB,nA + nB);
+		System.out.printf("%d - %d=%d",nA,nB,nA - nB);
+		System.out.printf("%d * %d=%d",nA,nB,nA * nB);
+		System.out.printf("%d / %d=%d",nA,nB,nA / nB);
+		System.out.printf("%d % %d=%d",nA,nB,nA % nB);
+	}
+
+}

@@ -1,0 +1,10 @@
+package pack01;
+
+public class sdasd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 if(num <=30)? 40 : 50 ;
+	}
+
+}

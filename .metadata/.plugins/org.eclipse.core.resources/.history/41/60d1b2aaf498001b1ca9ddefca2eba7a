@@ -1,0 +1,22 @@
+package sdh.hs.kr;
+
+import java.util.Scanner;
+
+public class HellowWorld2 {
+
+	public static void main(String[] args) {
+		        Scanner sc = new Scanner(System.in);
+		        System.out.print("Enter the number : ");
+                       int input = sc.nextInt();
+                       int year = input/10000;
+                       
+		        
+		        
+		        if(year < 19) {
+		        		year += 100;
+		        } if(118 - year != 0) {
+		        	System.out.print("old");
+		        }
+
+	}
+}

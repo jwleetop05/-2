@@ -1,0 +1,21 @@
+package pack01;
+
+
+
+public class work {
+
+	public static void main(String[] args) {
+		
+
+        
+		 int num =  (31<30)? 40 : 50 ; 
+		 
+		
+	
+       	    
+          
+   
+
+	}
+
+}

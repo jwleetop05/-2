@@ -1,0 +1,11 @@
+
+public class java_main {
+
+	public static void main(String[] args) {
+		System.out.print("서울디지텍고등학교");
+		System.out.println("인공지능융합계열");
+		System.out.printf("1학년4반18번 이재원");
+
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class javaMain {
+
+	public static void main(String[] args) {
+		float fA = 1.0f;
+		float fB = 2.0f;
+		System.out.printf("%f + %f = %f", fA ,fB,fA+fB);
+		System.out.printf("%f - %f = %f", fA ,fB,fA-fB);
+		System.out.printf("%f * %f = %f", fA ,fB,fA*fB);
+		System.out.printf("%f %% %f = %f", fA ,fB,fA%fB);
+
+
+	}
+
+}

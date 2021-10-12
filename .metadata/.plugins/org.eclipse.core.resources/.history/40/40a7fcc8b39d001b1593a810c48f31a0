@@ -1,0 +1,17 @@
+
+public class javamain {
+
+	public static void main(String[] args) {
+		int nA = 100;
+		float fA = 0.654321f;
+		System.out.printf("nA = [%d] \t fA = [%f]\n", nA, fA);
+		System.out.printf("nA = [%01d] \t fA = [%1.1f]\n", nA, fA);
+		System.out.printf("nA = [%02d] \t fA = [%1.2f]\n", nA, fA);
+		System.out.printf("nA = [%03d] \t fA = [%1.3f]\n", nA, fA);
+		System.out.printf("nA = [%04d] \t fA = [%1.4f]\n", nA, fA);
+		System.out.printf("nA = [%05d] \t fA = [%1.5f]\n", nA, fA);
+		System.out.printf("nA = [%//6d] \t fA = [%1.6f]\n", nA, fA);
+
+	}
+
+}

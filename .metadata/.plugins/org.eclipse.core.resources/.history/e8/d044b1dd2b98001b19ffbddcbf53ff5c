@@ -1,0 +1,17 @@
+package pack01;
+	
+	import java.util.Scanner;
+	
+	public class Main {
+
+		public static void main(String[] args) {
+	        a, b, c = map();
+	        int a % 2 == 0;
+	        print(a);
+	        int b % 2 == 0;
+	        print(b);
+	        int c % 2 == 0;
+	        print(c);
+		}
+	}
+}

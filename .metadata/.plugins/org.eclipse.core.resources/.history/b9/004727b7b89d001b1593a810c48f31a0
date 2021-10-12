@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class java8 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int A = sc.nextInt();
+		System.out.println(A + "seconds is equivalent to\t" + A/3600 + " hours."  );
+	}
+
+}

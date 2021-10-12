@@ -1,0 +1,26 @@
+package pack01;
+
+
+
+public class work {
+
+	public static void main(String[] args) {
+		
+
+        
+		 int num = 27;  
+		
+		 if(num <= 30) {
+       	   num += ++num;
+          } 
+       	   //if(num <= 100) {
+       		//num -= num/2;
+       	   //} 
+       	   System.out.print(num);
+       	    
+          
+   
+
+	}
+
+}

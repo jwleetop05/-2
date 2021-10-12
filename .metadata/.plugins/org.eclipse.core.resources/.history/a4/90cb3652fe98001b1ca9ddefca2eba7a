@@ -1,0 +1,25 @@
+package pack01;
+
+public class sdasd {
+
+	public static void main(String[] args) {
+		
+		 
+	        
+		 int num = 53;  
+		
+		 if(num <= 60) {
+			 if(num <= 30) {
+      	   num += ++num;
+         } 
+      	   if(num <= 100) {
+      		num -= num/2;
+      	   } 
+      	   System.out.print(num);
+      	    
+         
+  
+
+	}
+
+}

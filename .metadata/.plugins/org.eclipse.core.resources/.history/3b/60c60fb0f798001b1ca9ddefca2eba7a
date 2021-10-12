@@ -1,0 +1,31 @@
+package sdh.hs.kr;
+
+import java.util.Scanner;
+
+public class HellowWorld2 {
+
+	public static void main(String[] args) {
+		        Scanner sc = new Scanner(System.in);
+		        
+                       int input = sc.nextInt();
+                       int num = 15;
+                       boolean ans = (num % 2 == 0 | num % 3 == 0);
+                      
+                    	   System.out.print("2 또는 3의 배수인가?" + ans);
+                      
+                    	   if(num % 2 == 0) {
+                    	   System.out.print("2 또는 3의 배수인가?" + true);
+                       } else {
+                    	   if(num % 3 == 0) {
+                    		   System.out.print("2 또는 3의 배수인가?" + true);
+                    	   } 
+                    	   else {
+                    		   System.out.print("2 또는 3의 배수인가?" + false);
+                    	   }  
+                       }
+		        
+		        
+
+	}
+}
+

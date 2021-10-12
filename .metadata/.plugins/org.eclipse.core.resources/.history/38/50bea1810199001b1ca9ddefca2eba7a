@@ -1,0 +1,19 @@
+package pack01;
+
+import java.util.Scanner;
+
+public class sdasd {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int input = sc.nextInt();
+		
+		if (input >= 1000) {
+			System.out.println(Integer.toOctalString(input));
+		}
+		else {	
+			System.out.println(Integer.toHexString(input));
+		}
+	}
+
+}
